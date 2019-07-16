@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "module": "es2015",
+    "lib": ["es2015", "es2016", "es2017", "dom"],
+    "moduleResolution": "node",
+    "declarationDir": "mount/dist/types",
+    "outDir": "mount/dist/tsc",
+    "rootDir": "mount/src",
+    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["mount/dist", "node_modules", "package.json", "rollup.config.ts"]
+}

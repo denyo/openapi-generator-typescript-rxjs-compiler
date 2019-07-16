@@ -1,0 +1,17 @@
+{
+    "name": "openapi-client-typescript-rxjs",
+    "version": "0.0.1",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "unpkg": "dist/umd/index.js",
+    "typings": "dist/types/index.d.ts",
+    "files": [
+        "dist/cjs/*",
+        "dist/esm/*",
+        "dist/umd/*",
+        "dist/types/*"
+    ],
+    "dependencies": {
+        "rxjs": "^6.5.2"
+    }
+}
