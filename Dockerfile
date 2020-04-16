@@ -7,6 +7,5 @@ RUN yarn install
 
 COPY tsconfig.json rollup.config.ts package-template.json ./
 
-COPY entrypoint.sh /.
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+COPY entrypoint.sh .
+ENTRYPOINT ["sh", "/app/entrypoint.sh"]
